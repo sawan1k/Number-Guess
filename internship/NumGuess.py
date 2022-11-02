@@ -12,7 +12,7 @@ while(no_of_guesses < (math.log(higher-lower+1, 2))):
     user_guess = int(input(f"{name},enter your guess :"))
     no_of_guesses += 1
     if(user_guess == randomNumber):
-        print(f"congratulations{name}!,you guessed the  exact number!\nYou win!")
+        print(f"congratulations {name}!,you guessed the  exact number!\nYou win!")
         print(f"You guessed it in {no_of_guesses} guesses!")
         break
     else:
